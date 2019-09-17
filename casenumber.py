@@ -12,6 +12,6 @@ for i in range(len(l)):
         ii=ii.zfill(2)
         jj=str(jj)
         jj=jj.zfill(3)
-        print("A"+on+"-"+ii+"-"+jj)
+        print("sample"+on+"-"+ii+"-"+jj)
         jj=int(jj)
         jj+=1
