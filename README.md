@@ -1,13 +1,13 @@
 # work_snippets
 
 
-【check.py】	
+check.py
 
 excelファイル内の記載と実際のフォルダの中身を比較して内容が一致しているかを判断し、
 結果をresult.xlsxファイルに出力
 
 
-「find.py」
+find.py
 
 複雑な階層のフォルダツリーの中から指定したファイルを見つける
 
