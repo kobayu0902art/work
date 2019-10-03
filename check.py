@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-#情報漏洩対策でsampleに置換済み
+#sampleに置換済み
 
 import os
 import pandas as pd
@@ -74,7 +74,7 @@ for i in range(l):
     tempws=tempwb.active
     #エビデンスファイルのファイルパスのリスト作成(1項目に無駄データ作成しているが後で削除)
     evidlist=list(range(1))
-    #タテ方向走査(エビデンスファイル名の順番をそろえるため)
+    #タテ方向走査(ファイル名の順番をそろえるため)
     for col_num in range(1,40):
         for row_num in range(1,42):
             #tempエクセルの空欄を埋める(これをしないと次の処理エラー)

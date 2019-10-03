@@ -50,6 +50,17 @@ def secondary_search(pl,xlsx):
                 print(l) 
             if bool(l)==False:
                 print("該当なし")
+
+#def search(path,len,filetype):
+#    for i in range(len):
+#            os.chdir(path[i])
+#            tempfilename=path[i]+"**\\"+filename+filetype
+#            l=glob.glob(tempfilename, recursive=True)
+#            if bool(l)==True:
+#                print(l) 
+#            if bool(l)==False:
+#                print("該当なし")
+#   #ex)search(primary,pl,xls) search(secondary,sl,xlsx)
     
 while flag==0:
     filename=input("file name?\n")
